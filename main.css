@@ -160,3 +160,58 @@ Tablet (768px)
     line-height: 25px;
   }
 }
+
+/* *******************
+Media Query: 
+Tablet (1440px)
+******************* */
+@media (min-width: 1440px) {
+  /* *******************
+  Header Logo
+  ******************* */
+  header {
+    width: 60%;
+  }
+
+  .logo {
+    width: 250px;
+  }
+
+  /* *******************
+  Container
+  ******************* */
+  .container {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  /* *******************
+  Top Container
+  ******************* */
+  .top-container {
+    background: url(images/hero-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 40%;
+  }
+
+  /* *******************
+  Bot Container
+  ******************* */
+  .bot-container {
+    margin: 0 auto;
+    text-align: left;
+  }
+
+  .bot-container h1,
+  .bot-container span {
+    font-size: 4rem;
+  }
+
+  .bot-container span {
+    max-width: 200px;
+  }
+
+
+}
